@@ -21,7 +21,7 @@ yahoo_finance_tool = Tool(
     func = lambda ticket: fetch_stock_price(ticket)
 )
 
-os.environ['OPENAI_API_KEY'] = "sua_api_key"
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 llm = ChatOpenAI(model="gpt-3.5-turbo")
 
 stock_price_analyst = Agent(
