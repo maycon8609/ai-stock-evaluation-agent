@@ -21,6 +21,8 @@
 ### About the project:
 This project is a stock analysis tool that leverages various APIs and intelligent agents to conduct in-depth research on stock market performance. The system is built in Python and uses libraries such as yfinance, Streamlit, and langchain, among others.
 
+![Screenshot do Projeto](./assets/ia-stock-evaluation-agent.png)
+
 ### It has three main agents:
 
 **Stock Price Analysis**: Fetches historical stock price data for one year and analyzes current trends (up, down, or sideways).
@@ -37,6 +39,7 @@ This template can be easily adapted to other scenarios by changing the project d
 
 ### Code structure
 ```
+|-- assets
 |-- jupyter
 |   |-- crewai-stocks.ipynb -> jupyter notebook file to development
 |   .gitignore
