@@ -42,10 +42,10 @@ This template can be easily adapted to other scenarios by changing the project d
 |-- assets
 |-- jupyter
 |   |-- crewai-stocks.ipynb -> jupyter notebook file to development
-|   .gitignore
-|   crewai-stocks.py -> Final file after development
-|   readme.md
-|   requirements.txt -> Dependencies required for the project
+|-- .gitignore
+|-- crewai-stocks.py -> Final file after development
+|-- readme.md
+|-- requirements.txt -> Dependencies required for the project
 ```
 
 ### Install dependencies
