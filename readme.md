@@ -9,7 +9,7 @@
 
 ### summary
 
-- [About the project](#about-the-project)
+- [About](#about-the-project)
 - [Agents](#it-has-three-main-agents)
 - [Code structure](#code-structure)
 - [Install dependencies](#install-dependencies)
